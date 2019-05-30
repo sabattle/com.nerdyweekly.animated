@@ -4,15 +4,14 @@ import QtGraphicalEffects 1.0
 
 Rectangle {
     id: root
-    width: 1920; height: 1080
+    width: 2560; height: 1440
     color: "#00050a"
 
     AnimatedImage {
         id: animation
         source: "animation.gif"
-        height: 1094; width: 1900
-        x: 20
-        fillMode: Image.PreserveAspectFit
+        height: 1440; width: 2560
+        fillMode: Image.Stretch
         smooth: false
         cache: true
     }
