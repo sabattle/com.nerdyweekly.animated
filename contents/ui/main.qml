@@ -22,6 +22,6 @@ Rectangle {
         anchors.fill: animation
 
         source: animation
-        radius: 50
+        radius: 30
     }
 }
